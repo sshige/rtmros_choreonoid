@@ -493,6 +493,7 @@ DEF JAXON_JVRC Humanoid {
                               # intensity
                               # on
                             }
+                            #DEF tmp_motor_joint Joint { # if we want to stop motor
                             DEF motor_joint Joint {
                               translation 0.0559 0 0.14425
                               #jointId 37

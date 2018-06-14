@@ -289,7 +289,7 @@ DEF yellow_box Humanoid {
        rotation 0 1 0 0
        children [
           DEF BODY Segment {
-             mass 1.0
+             mass 0.1
              momentsOfInertia [0.015 0 0  0 0.015 0  0 0 0.015]
              children [ ### geometry
                 Transform {

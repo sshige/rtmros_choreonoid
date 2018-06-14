@@ -1,4 +1,19 @@
 Transform {
+  translation 0.04 0 -0.17
+  children [
+    Shape {
+      geometry Box {
+        size 0.02 0.15 0.15
+      }
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.15 0.15 0.15
+        }
+      }
+    } #Shape
+  ] #children
+} #Transform
+Transform {
   children [
     Shape {
       appearance Appearance {
