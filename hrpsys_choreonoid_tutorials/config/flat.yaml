@@ -5,6 +5,6 @@ obj1:
   rotation: [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
 obj2:
   name: 'BOX'
-  file: '/home/riku/catkin_ws/jaxon_tutorial/src/rtm-ros-robotics/rtmros_choreonoid/jvrc_models/models/shigematsu_box.wrl'
+  file: '/home/riku/catkin_ws/jaxon_tutorial/src/rtm-ros-robotics/rtmros_choreonoid/jvrc_models/models/checkerboard_box.wrl'
   translation: [0.6, 0, 0.5]
   rotation: [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
