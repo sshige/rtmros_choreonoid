@@ -290,6 +290,7 @@ DEF shigematsu_box Humanoid {
        children [
           DEF BODY Segment {
              mass 1.0
+             centerOfMass 0.0 0.0 -0.15
              momentsOfInertia [0.2 0 0  0 0.2 0  0 0 0.2]
              children [ ### geometry
                 Transform {
