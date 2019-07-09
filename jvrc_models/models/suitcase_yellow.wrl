@@ -289,9 +289,9 @@ DEF suitcase Humanoid {
        rotation 0 1 0 0
        children [
           DEF BODY Segment {
-             mass 20.0
+             mass 5.0
              centerOfMass 0.0 0.0 0.0
-             momentsOfInertia [0.01 0 0  0 0.01 0  0 0 0.01]
+             momentsOfInertia [0.1 0 0  0 0.1 0  0 0 0.1]
              children [ ### geometry
                 Transform {
                    scale 1.0 1.0 1.0
@@ -303,21 +303,28 @@ DEF suitcase Humanoid {
                             }
                          }
                          geometry Box {
-                            size 0.28 0.46 0.72
+                            size 0.23 0.35 0.56
                          }
                       } # Shape
                    ]
                 }
                 Transform {
-                   translation -0.033 0 0.4
-                   children [
-                      Shape{
-                         geometry Box {
-                            size 0.025 0.24 0.01
-                         }
-                      }
-                   ]
-                }
+                    translation 0.115 0 0
+                    children [
+                        Shape {
+                           appearance Appearance {
+                              texture ImageTexture {
+                                 url "checkerboard_4x5.png"
+                                 repeatS FALSE
+                                 repeatT FALSE
+                                 }
+                              }
+                              geometry Box {
+                                 size 0.01 0.3 0.25
+                              }
+                        } # Shape
+                    ]
+               }
             ]
           }
        ]
