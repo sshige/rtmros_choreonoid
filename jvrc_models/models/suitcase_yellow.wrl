@@ -309,7 +309,7 @@ DEF suitcase Humanoid {
                    ]
                 }
                 Transform {
-                    translation 0 0 0.28
+                    translation -0.115 0 0
                     children [
                         Shape {
                            appearance Appearance {
@@ -320,7 +320,7 @@ DEF suitcase Humanoid {
                                  }
                               }
                               geometry Box {
-                                 size 0.15 0.18 0.01
+                                 size 0.01 0.24 0.2
                               }
                         } # Shape
                     ]
